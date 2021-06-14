@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ControlClientes</string>
+    <string name="cliente_titulo">CLIENTES</string>
+    <string name="cliente_titulo_singular">CLIENTE:</string>
+    <string name="agregar_cliente">AGREGAR CLIENTE</string>
+    <string name="editar_cliente">EDITAR CLIENTE</string>
+    <string name="editar_direccion">EDITAR DIRECCION</string>
+    <string name="agregar_direccion">AGREGAR DIRECCION</string>
+    <string name="nombre_Cliente">NOMBRE CLIENTE</string>
+    <string name="direccion_cliente">DIRECCION CLIENTE</string>
+</resources>

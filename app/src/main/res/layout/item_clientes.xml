@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="58"
+        android:background="#F5F5F5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/cliente_lista_nombre"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="34"
+            android:layout_width="0dp"
+            android:gravity="center|left"
+            android:textAllCaps="true"
+            android:text="CPJ"
+            android:layout_height="match_parent"></TextView>
+
+
+        <ImageView
+            android:id="@+id/cliente_delete"
+            android:layout_weight="8"
+            android:layout_marginLeft="150dp"
+            android:src="@drawable/ic_baseline_delete_24"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"></ImageView>
+
+        <ImageView
+            android:id="@+id/cliente_edit"
+            android:layout_weight="8"
+            android:src="@drawable/ic_baseline_edit_24"
+            android:layout_marginLeft="20dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"></ImageView>
+        <ImageView
+
+            android:layout_weight="8"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_baseline_chevron_right_24_black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"></ImageView>
+
+    </LinearLayout>
+
+</LinearLayout>

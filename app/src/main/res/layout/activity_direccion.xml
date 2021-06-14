@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/font_size_normal"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:text="CLIENTE:  "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:id="@+id/tv_cliente_nombre_dr"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/font_size_normal"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:text="PLAZA LAMA "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_add_direccion"
+        android:textSize="@dimen/font_size_normal"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:text="@string/agregar_direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <ListView
+        android:id="@+id/direccionListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

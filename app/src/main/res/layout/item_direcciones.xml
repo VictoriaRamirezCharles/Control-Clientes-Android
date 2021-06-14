@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="70"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/direccion_lista_nombre"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="60"
+            android:layout_width="0dp"
+            android:gravity="center|left"
+            android:textAllCaps="true"
+            android:text="hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+
+            android:layout_height="match_parent"></TextView>
+
+
+        <ImageView
+            android:id="@+id/direccion_delete"
+            android:layout_weight="10"
+            android:layout_marginLeft="150dp"
+            android:src="@drawable/ic_baseline_delete_24"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"></ImageView>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/font_size_normal"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:text="@string/cliente_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <Button
+        android:id="@+id/btn_add_cliente"
+        android:textSize="@dimen/font_size_normal"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:text="@string/agregar_cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <ListView
+        android:divider="@null"
+        android:id="@+id/clienteListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>
