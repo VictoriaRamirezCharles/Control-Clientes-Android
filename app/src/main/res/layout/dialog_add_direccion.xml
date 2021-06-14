@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"></TextView>
 
     <EditText
-        android:inputType="text"
+        android:inputType="textMultiLine"
         android:id="@+id/ed_nombre_direccion"
         android:layout_marginTop="15dp"
         android:textSize="@dimen/font_size_normal"
@@ -24,7 +24,6 @@
         android:hint="@string/direccion_cliente"
         android:background="@drawable/edit_text_border"
         android:layout_width="match_parent"
-        android:lines="3"
         android:layout_height="90dp" />
 
     <Button

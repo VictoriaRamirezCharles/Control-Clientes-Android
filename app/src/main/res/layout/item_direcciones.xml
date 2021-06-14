@@ -23,7 +23,6 @@
 
             android:layout_height="match_parent"></TextView>
 
-
         <ImageView
             android:id="@+id/direccion_delete"
             android:layout_weight="10"
@@ -31,10 +30,6 @@
             android:src="@drawable/ic_baseline_delete_24"
             android:layout_width="0dp"
             android:layout_height="match_parent"></ImageView>
-
-
-
-
     </LinearLayout>
 
 </LinearLayout>
